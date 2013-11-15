@@ -60,6 +60,15 @@
         <p class="view"><a href="/projects.html">Open source projects<small>Projects I am maintaining right now</small></a></p>
         <p class="view"><a href="/supported.html">Projects I support<small>Stuff you might like</small></a></p>
         <p class="view"><a href="/archive.html">Posts archive<small>Things I've written in the past</small></a></p>
+
+		{% if {{site.is_project_page}} == true %}
+		<h3>Project Info</h3>
+			<ul>
+				<li><a href="{{site.project.download}}">Download <strong>project</strong></a></li>
+				<li><a href="{{site.project.issue}}">Report<strong>An Issue</strong></a></li>
+				<li><a href="{{site.project.github}}">Fork On <strong>GitHub</strong></a></li>
+			</ul>
+		{% endif %}
         
 		<h3>Follow Me On</h3>
 		<p class="view"><a href="https://github.com/bietje" target="tab">GitHub<small>If coding is your thing</small></a></p>
