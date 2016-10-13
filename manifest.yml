@@ -1,10 +1,10 @@
 ---
 name : minimal
-website :  http://www.michelmegens.net
+website :  http://bietje.net
 description :  "A minimumlist theme for Jekyll + Jekyll-Bootstrap."
 git_url : https://github.com/bietje/jekylltheme-minimal.git
 source_url : https://github.com/bietje/jekylltheme-minimal
 author:
-  name : Yuya Saito
-  email : dev@michelmegens.net
-  website : http://www.michelmegens.net
+  name : Michel Megens
+  email : dev@bietje.net
+  website : http://bietje.net
